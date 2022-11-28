@@ -13,13 +13,13 @@ public class Hook {
 
         // If pour savoir si le commit commence bien par Bonjour 
         if (data.startsWith("Zainab") ||  data.startsWith("Matis") || data.startsWith("Pierre") ) {
-            message = "Le commit n'est pas bon, il ne commence pas par Matis, Zainab ou Pierre ";
+            message = "Le commit est bon, il commence par Matis, Zainab ou Pierre ";
             System.out.println(message);
-            System.exit(1); 
+            System.exit(0); 
         } else {
             message = "Le commit ne commence pas par Zainab ou Matis ou Pierre";
             System.out.println(message);
-            System.exit(0);
+            System.exit(1);
         }
         System.exit(1); 
 
