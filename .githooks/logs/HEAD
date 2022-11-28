@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 db369327dbec3c0a4bfa8b561e261aa1e310acb2 Pierre Chaminade <pierre.chaminade.code@gmail.com> 1669631031 +0100	clone: from github.com:Pierrechami/HOOK_PROJET.git
-db369327dbec3c0a4bfa8b561e261aa1e310acb2 26e7a818da90c0315d72827966301904c9b21282 Pierre Chaminade <pierre.chaminade.code@gmail.com> 1669631464 +0100	commit: initialisation projet
-26e7a818da90c0315d72827966301904c9b21282 4f4275fb302f1ffa01642bdd61721dff2e045936 Pierre Chaminade <pierre.chaminade.code@gmail.com> 1669632385 +0100	pull: Fast-forward
-4f4275fb302f1ffa01642bdd61721dff2e045936 e2f3b16709a0ee954ac4846f7a685ac8382f2164 Pierre Chaminade <pierre.chaminade.code@gmail.com> 1669632467 +0100	pull: Fast-forward
-e2f3b16709a0ee954ac4846f7a685ac8382f2164 895439e2496a235abcfa331179b0d4d4f7a445d0 Pierre Chaminade <pierre.chaminade.code@gmail.com> 1669633085 +0100	pull: Fast-forward
-895439e2496a235abcfa331179b0d4d4f7a445d0 cf7e3df01e95099c20872d06dee97146616c94f7 Pierre Chaminade <pierre.chaminade.code@gmail.com> 1669633500 +0100	commit: update githooks
