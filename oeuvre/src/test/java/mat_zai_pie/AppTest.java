@@ -1,6 +1,6 @@
 package mat_zai_pie;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -12,9 +12,16 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
+
     @Test
-    public void shouldAnswerWithTrue()
+    public void testEnum()
     {
-        assertTrue( true );
+        assertEquals("Rouge", PaletteDeCouleur.ROUGE.couleur);
+        assertEquals("Vert", PaletteDeCouleur.VERT.couleur);
+        assertEquals("Bleu", PaletteDeCouleur.BLEU.couleur);
+        assertEquals("Jaune", PaletteDeCouleur.JAUNE.couleur);
+        assertEquals("Blanc", PaletteDeCouleur.BLANC.couleur);
+        assertEquals("Rose", PaletteDeCouleur.ROSE.couleur);
     }
+
 }

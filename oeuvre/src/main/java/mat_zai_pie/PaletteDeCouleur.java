@@ -13,4 +13,5 @@ public enum PaletteDeCouleur {
     PaletteDeCouleur(String couleur){
         this.couleur = couleur;
     }
+
 }
