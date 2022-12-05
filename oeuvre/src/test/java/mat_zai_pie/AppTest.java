@@ -10,7 +10,7 @@ import org.junit.Test;
 public class AppTest 
 {
     /**
-     * Rigorous Test :-)
+     * Test Enum
      */
 
     @Test
@@ -24,4 +24,34 @@ public class AppTest
         assertEquals("Rose", PaletteDeCouleur.ROSE.couleur);
     }
 
+    /**
+     * Test Class Artist
+     */
+
+    PaletteDeCouleur[] jocondeCouleur = {PaletteDeCouleur.BLEU, PaletteDeCouleur.ROUGE, PaletteDeCouleur.VERT};
+    Peinture joconde = new Peinture("Joconde", "peinture", 1954, 2500, "Toile", "Pinceau", jocondeCouleur);
+		
+    Peinture laCene = new Peinture("Cene", "peinture", 1754, 156, "peinture murale", "Crayon", jocondeCouleur);
+
+    Oeuvre[] zainabOeuvre = {joconde, laCene};
+
+    Artist zainab = new Artist("Lahmar", "Zainab", "Zai", 25, zainabOeuvre);
+
+    @Test
+    public void artistAge()
+    {
+        assertEquals(zainab.getAge(), 25);
+    }
+
+    @Test
+    public void paletteDeCouleurLength()
+    {
+        assertEquals(2, zainabOeuvre.length);
+    }
+
+    @Test
+    public void artistNom()
+    {
+        assertEquals(zainab.getNom(), "Lahmar");
+    }
 }
