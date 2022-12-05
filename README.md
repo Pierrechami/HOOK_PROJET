@@ -13,7 +13,7 @@ ainsi que l'utilisation de githooks.
 
 ## Authors
 
-- [@zlahmar20](https://github.com/zlahmar20)
+- [@zlahmar](https://github.com/zlahmar)
 - [@Pierrechami](https://github.com/Pierrechami)
 - [@MatisGalvin](https://github.com/MatisGalvin)
 
