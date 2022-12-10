@@ -1,11 +1,11 @@
 #!/bin/bash
-protected_branch='main'  
+protected_branch='dev'  
 current_branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 
 if [ $protected_branch = $current_branch ]  
 then  
   
-    echo -en "\033[31mTu es sur le point de push sur le main, est-ce que tu veux vraiment ? [y|n] \033[0m"
+    echo -en "\033[31mTu es sur le point de push sur le dev, est-ce que tu veux vraiment ? [y|n] \033[0m"
     echo -en "\033[1m"
     read -n 1 -r < /dev/tty
     echo -en "\033[0m"
