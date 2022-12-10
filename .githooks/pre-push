@@ -1,0 +1,21 @@
+#!/bin/bash
+protected_branch='main'  
+current_branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
+
+if [ $protected_branch = $current_branch ]  
+then  
+  
+    echo -en "\033[31mTu es sur le point de push sur le main, est-ce que tu veux vraiment ? [y|n] \033[0m"
+    echo -en "\033[1m"
+    read -n 1 -r < /dev/tty
+    echo -en "\033[0m"
+    
+    echo
+    if echo $REPLY | grep -E '^[Yy]$' > /dev/null
+    then
+        exit 0 # push will execute
+    fi
+    exit 1 # push will not execute
+else  
+    exit 0 # push will execute
+fi 
