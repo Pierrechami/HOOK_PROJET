@@ -2,7 +2,12 @@
 protected_branch='dev'  
 current_branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 
-echo "Message depuis pre push"
+
+# get the path to this script file
+DIR=$(dirname "$0")
+exec java $DIR/HookPrePush.java $protected_branch $current_branch
+
+
 # if [ $protected_branch = $current_branch ]  
 # then  
   
