@@ -1,7 +1,6 @@
 package mat_zai_pie;
 
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
 /**

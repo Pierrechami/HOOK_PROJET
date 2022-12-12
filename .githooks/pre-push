@@ -6,6 +6,8 @@ DIR=$(dirname "$0")
 
 exec java $DIR/HookPrePush.java "$protected_branch" "$current_branch"
 
+
+
 # if [ $protected_branch = $current_branch ]  
 # then  
   
