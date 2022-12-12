@@ -2,12 +2,12 @@ package mat_zai_pie;
 
 public class App {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		PaletteDeCouleur[] jocondeCouleur = {PaletteDeCouleur.BLEU, PaletteDeCouleur.ROUGE, PaletteDeCouleur.VERT};
 		Peinture joconde = new Peinture("Joconde", "peinture", 1954, 2500, "Toile", "Pinceau", jocondeCouleur);
 		
-		Peinture laCene = new Peinture("Cene", "peinture", 1754, 156, "peinture murale", "Crayon", jocondeCouleur);
+		Peinture laCene = new Peinture("Cene", "peinture", 1754, 156, "peinture sur toile", "Crayon", jocondeCouleur);
 
 		Oeuvre[] leonardOeuvre = {joconde, laCene};
 

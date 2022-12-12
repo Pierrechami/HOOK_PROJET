@@ -9,8 +9,12 @@ public class Peinture extends Oeuvre {
     String materiel; // crayon....
     List<PaletteDeCouleur> couleurUtilise;
     
-    Peinture(String nom, String style, int anneeDeParution, float prixDeVente, String support, String materiel, PaletteDeCouleur[] couleurSurPaletteDuPeintre) {
+    Peinture(String nom, String style, int anneeDeParution, float prixDeVente, String support, String materiel, PaletteDeCouleur[] couleurSurPaletteDuPeintre) throws supportException {
         super(nom, style, anneeDeParution, prixDeVente);
+
+        if(support.length() == 0){
+            throw new supportException("SUPPORT INVALIDE EXCEPTION");
+        }
         this.support = support;
         this.materiel = materiel;
 
