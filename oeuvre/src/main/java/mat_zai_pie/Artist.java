@@ -33,9 +33,10 @@ public class Artist {
 
     //@Override
     public void afficher() {
+        System.out.println("Voici les oeuvres de " + nom);
         for (int i = 0; i < listeOeuvre.length; i++) {
-            System.out.println("Voici les oeuvres de " + nom);
             listeOeuvre[i].afficher();
+            System.out.println("=================================");
         }    
     }   
 }
