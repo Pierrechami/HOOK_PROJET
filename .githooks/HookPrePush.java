@@ -4,7 +4,7 @@ public class HookPrePush {
     public static void main(String[] args) throws Exception {
         String branchProtect = args[0];
         String branchCourent = args[1];
-        if ( branchCourent != branchProtect){
+        if ( !(branchCourent.equals(branchProtect))){
             System.exit(0);
         }else{
             System.out.println("Attention vous etes sur la branche " + branchProtect + "." );
