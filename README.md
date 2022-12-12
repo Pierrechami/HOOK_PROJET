@@ -17,6 +17,70 @@ ainsi que l'utilisation de githooks.
 - [@Pierrechami](https://github.com/Pierrechami)
 - [@MatisGalvin](https://github.com/MatisGalvin)
 
+## Étapes de la réalisation du projet
+<ol>
+
+<details>
+  <summary>Etape 1: GitHooks </summary><ol>
+  - Création de la branche dev.<br/>
+  - Création des premiers githooks.<br/>
+  - Création du commit-msg: Si le commit ne commence pas par " Matis, Zainab ou Pierre", le commit ne passe pas.<br/>
+  - Commencer le README. <br/>
+
+  <br/>
+ </ol>
+</details>
+
+<details>
+  <summary>Etape 2: Coder les classes </summary><ol>
+    - PaletteDeCouleur<br/>
+    - Peinture<br/>
+    - Sculpture<br/>
+    - Oeuvre<br/>
+    - Artist<br/>
+    - supportException : qui envoie un message d'exception si on n'a pas de support pour la peinture.<br/>
+    - Affichable<br/>
+    - App (main)<br/>
+     <br/>
+  </ol>
+  Une œuvre est créée par un artiste, une œuvre peut-être une peinture ou une sculpture, une oeuvre a un nom, une année de parution et un prix de vente..<br/>
+  Un artiste est connu par son nom, prénom, âge et bien sûr la liste d'oeuvres qu'il a réalisée..<br/>
+  <br/>
+</details>
+
+<details>
+  <summary>Etape 3: Commit </summary><ol>
+  Faire un merge request sur la branche de dev, tester les 1er commit et push.<br/>
+  <br/>
+ </ol>
+</details>
+
+<details>
+  <summary>Etape 4: Test unitaire  </summary><ol>
+    - Test Enum : PaletteDeCouleur;<br/>
+    - Test de la class Artist;<br/>
+    - Test de la class Painture;<br/>
+    - Tester une exeption;<br/>
+    <br/>
+ </ol>
+</details>
+
+<details>
+  <summary>Etape 5: PRE-PUSH  </summary><ol>
+  - Commit, push et merge des tests.<br/>
+  - Modifier et tester le Hook du PRE-PUSH ansi que le msg : Poser une condition pour ne pas pouvoir push dans une branche protéger.<br/>   
+ </ol>
+</details>
+
+<details>
+  <summary>Etape 6: La fin </summary><ol>
+  Finaliser les dernières touches puis tirer une branche de staging depuis notre branche de dev.<br/>
+   
+  <br/>
+ </ol>
+</details>
+</ol>
+
 ## Ce que nous avons appris
 
 Il nous a fallut créer notre propre programme, non pas à partir d'un énnoncé mais à partir d'une idée qui nous plaisait.

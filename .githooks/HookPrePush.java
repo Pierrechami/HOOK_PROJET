@@ -7,7 +7,7 @@ public class HookPrePush {
         if ( !(branchCourent.equals(branchProtect))){
             System.exit(0);
         }else{
-            System.out.println("Attention vous etes sur la branche " + branchProtect + "." );
+            System.out.println("Attention vous êtes sur la branche " + branchProtect + "." );
             System.out.println("Merci de changer de branche.");
             System.exit(1);
         }
