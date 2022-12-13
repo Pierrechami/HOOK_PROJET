@@ -1,7 +1,7 @@
 
 # Oeuvre d'art
 
-Nous avons voulu créer un projet de A à Z, comprenant la réalisation de test 
+Nous avons voulu créer un projet de A à Z, comprenant la réalisation de tests 
 ainsi que l'utilisation de githooks.
 
 
@@ -38,7 +38,7 @@ ainsi que l'utilisation de githooks.
     - Sculpture<br/>
     - Oeuvre<br/>
     - Artist<br/>
-    - supportException : qui envoie un message d'exception si on n'a pas de support pour la peinture.<br/>
+    - supportException : Envoie un message d'exception si le support pour la peinture est vide.<br/>
     - Affichable<br/>
     - App (main)<br/>
      <br/>
@@ -56,10 +56,10 @@ ainsi que l'utilisation de githooks.
 </details>
 
 <details>
-  <summary>Etape 4: Test unitaire  </summary><ol>
+  <summary>Etape 4: Tests unitaires  </summary><ol>
     - Test Enum : PaletteDeCouleur;<br/>
     - Test de la class Artist;<br/>
-    - Test de la class Painture;<br/>
+    - Test de la class Peinture;<br/>
     - Tester une exeption;<br/>
     <br/>
  </ol>
@@ -75,7 +75,6 @@ ainsi que l'utilisation de githooks.
 <details>
   <summary>Etape 6: La fin </summary><ol>
   Finaliser les dernières touches puis tirer une branche de staging depuis notre branche de dev.<br/>
-   
   <br/>
  </ol>
 </details>
@@ -84,7 +83,7 @@ ainsi que l'utilisation de githooks.
 ## Ce que nous avons appris
 
 Il nous a fallut créer notre propre programme, non pas à partir d'un énnoncé mais à partir d'une idée qui nous plaisait.
-Détailler le programme en plusieurs classes, la logique qui allait les reliée d'a pas non plus été si simple.
+Détailler le programme en plusieurs classes et construire la logique qui allait les reliées n'a pas non plus été si simple.
 L'utilisation des GitHooks a été très utile pour rendre nos commit homogènes.
 Nous n'avons pas pu exploiter leur pleine puissance mais il aurait été interessant de lancer nos test à chaques push par exemple.
 
