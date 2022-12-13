@@ -24,7 +24,7 @@ Ces différentes oeuvres pourront être rattachées à un Artiste. L'utilisateur
   <summary>Etape 1: GitHooks </summary><ol>
   - Création de la branche dev.<br/>
   - Création des premiers githooks.<br/>
-  - Création du commit-msg: Si le commit ne commence pas par " Matis, Zainab ou Pierre", le commit ne passe pas.<br/>
+  - Création du commit-msg: Si le commit ne commence pas par " Matis, Zainab ou Pierre", le commit ne passe pas et l'utilisateur en sera avertis. Il va devoir modifier la nomenclature de son commit si il souhaite commit des changements.<br/>
   - Commencer le README. <br/>
 
   <br/>
