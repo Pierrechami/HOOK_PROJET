@@ -1,9 +1,9 @@
 
 # Oeuvre d'art
 
-Nous avons voulu créer un projet de A à Z, comprenant la réalisation de tests 
-ainsi que l'utilisation de githooks.
+Notre programme va permettre de créer des oeuvres d'art en passant par la conception d'une palette de couleur dans le cadre d'une peinture par exemple. Il va être possible de personnaliser nos oeuvres d'art en leur donnant un nom, un style, un support...
 
+Ces différentes oeuvres pourront être rattachées à un Artiste. L'utilisateur pourra, s'il le souhaite, afficher l'intégralité des oeuvres d'un artistes.
 
 ## Badges
 
@@ -68,7 +68,7 @@ ainsi que l'utilisation de githooks.
 <details>
   <summary>Etape 5: PRE-PUSH  </summary><ol>
   - Commit, push et merge des tests.<br/>
-  - Modifier et tester le Hook du PRE-PUSH ansi que le msg : Poser une condition pour ne pas pouvoir push dans une branche protéger.<br/>   
+  - Modifier et tester le Hook du PRE-PUSH : notre hook va bloquer l'action d'un push sur la branch main. Il va renvoyer une message demandant à l'utilisateur de changer de branche. Si vous voulez tester ce hook, rendez vous dans le fichier "pre-push" et changer la "protected_branch" et donner lui un nom de branche à proteger.<br/>   
  </ol>
 </details>
 
